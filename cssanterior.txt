@@ -1,0 +1,49 @@
+* {
+  Margin:1;
+  padding:1;
+}
+
+
+.nav-azul{
+  background-color:rgb(245, 245, 245);
+  }
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(14, 14, 245);
+}
+.navbar-nav .align-items-center {
+  color: rgb(9, 241, 9);
+}
+
+
+.font-tam{
+font-size: 1.5rem;
+
+}
+.slider{
+  height: 95vh;
+  object-fit: cover;
+}
+  rgb(14, 14, 245) azul
+  rgb(95, 184, 6)
+
+  .piePagina{
+    background: linear-gradient(to bottom, rgb(227, 241, 225), white);
+  }
+
+  .miBoton {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; 
+    animation-duration: 6s;  
+  }
+
+  h1{
+    color: rgb(9, 241, 9);
+  }
+
+  
+
+  
+  
+

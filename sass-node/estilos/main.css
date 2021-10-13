@@ -1,0 +1,17 @@
+h1 {
+  color: blue; }
+
+.fondoBoton {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #e3f1e1;
+  text-align: center;
+  border-top-left-radius: 15px; }
+  .fondoBoton .letras {
+    display: flex;
+    justify-content: center; }
+
+footer {
+  background: linear-gradient(to bottom, #e3f1e1, white); }

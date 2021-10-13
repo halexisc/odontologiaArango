@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  color: #e3f1e1;
+}
+
+.estiloMenu {
+  background-color: blue;
+  color: blue;
+  border: 2px solid #0099CC;
+  border-radius: 6px;
+  width: 30px;
+}
+
+/*  parte del formulario*/
+.estilosFormulario {
+  padding: 60px;
+  max-width: 400px;
+  background-color: #0099CC;
+  margin: 0 auto;
+}
+
+form {
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+.main__msg {
+  text-transform: uppercase;
+  color: blue;
+}
+
+.banner {
+  background-color: green;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 auto;
+  width: 300px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.banner__img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.banner__msg {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.banner__btn {
+  background-color: blue;
+  color: #e3f1e1 ack;
+  padding: 20px 25 px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.banner:hover {
+  background-color: blue;
+  color: #e3f1e1;
+  width: 320px;
+}
+
+.banner:hover button {
+  background: #e3f1e1;
+}
+
+.formulario {
+  padding: 60px;
+  max-width: 400px;
+  background-color: #0099CC;
+  margin: 0 auto;
+}
+
+*:focus {
+  outline: none;
+}
+
+.formulario:first-child div {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.formulario:first-child div fieldset div {
+  margin-top: 15px;
+}
+
+.formulario:first-child div fieldset input, .formulario:first-child div fieldset textarea {
+  border: 1px #00bcd4 solid;
+  border-radius: 5px;
+  padding: 6px;
+  background: #e3f1e1;
+  color: #00bcd4;
+}
+
+.formulario:first-child div fieldset input:focus, .formulario:first-child div fieldset textarea:focus {
+  background: white;
+  color: black;
+}
+
+.formulario:first-child div fieldset .submit {
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #00BCD4;
+  border-radius: 20px;
+  border: 2px solid #2196F3;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+
+.formulario:first-child div fieldset .submit:hover {
+  color: #2196F3;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+input[type=search] {
+  border: 1px dotted #999;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+form {
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 0 auto;
+  background: #FFF url(background.jpg);
+}
+/*# sourceMappingURL=main.css.map */

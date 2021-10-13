@@ -1,0 +1,165 @@
+
+$colorVer:rgb(227, 241, 225);
+$colorAzul:blue;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+h1{
+    color: $colorVer;
+}
+
+.estiloMenu{
+    background-color: blue;
+    color: blue;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    width: 30px;
+    }
+
+/*  parte del formulario*/
+
+   .estilosFormulario{
+
+    padding: 60px;
+    max-width: 400px;
+    background-color: #0099CC;;
+    margin: 0 auto;
+
+
+   }
+
+   form{
+    padding: 60px;
+    max-width: 400px;
+    background-color: #E7E7E7;
+    margin: 0 auto;
+  }
+  
+
+ .main {
+
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    &__msg{
+        text-transform: uppercase;
+        color: $colorAzul;
+            }
+     } 
+
+   .banner{
+       background-color: green;
+       border-radius: 5px;
+       padding: 20px;
+       text-align:center;
+       font-size: 25px;
+       margin: 0 auto;
+       width: 300px;
+       transition: all 0.5s;
+
+
+    &__img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    &__msg{
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    &__btn{
+        background-color: $colorAzul ;
+        color: rgb(227, 241, 225)ack;
+        padding: 20px 25 px;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    &:hover{
+        background-color: $colorAzul;
+        color: $colorVer;
+        width: 320px;
+    }
+   
+    &:hover button{
+        background: $colorVer;
+    }
+    }  
+
+   
+    .formulario{
+        padding: 60px;
+        max-width: 400px;
+        background-color: #0099CC;
+        margin: 0 auto;
+      }
+
+      *:focus {
+        outline: none;
+      }
+
+      .formulario:first-child div {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      .formulario:first-child div fieldset div {
+        margin-top: 15px;
+      }
+      
+      .formulario:first-child div fieldset input, .formulario:first-child div fieldset textarea {
+        border: 1px #00bcd4 solid;
+        border-radius: 5px;
+        padding: 6px;
+        background:rgb(227, 241, 225);
+        color: #00bcd4;
+      }
+      
+      .formulario:first-child div fieldset input:focus, .formulario:first-child div fieldset textarea:focus {
+        background: white;
+        color: black;
+      }
+      
+      .formulario:first-child div fieldset .submit {
+        text-decoration: none;
+        padding: 12px;
+        font-weight: 600;
+        font-size: 18px;
+        color: #ffffff;
+        background-color: #00BCD4;
+        border-radius: 20px;
+        border: 2px solid #2196F3;
+        transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+      }
+      
+      .formulario:first-child div fieldset .submit:hover {
+        color: #2196F3;
+        background-color: #ffffff;
+        cursor:pointer;
+      }
+
+
+      input[type=search] {
+        border: 1px dotted #999;
+        border-radius: 0;
+      
+        -webkit-appearance: none;
+      }
+
+      form {
+        position: relative;
+      
+        width  : 740px;
+        height : 498px;
+        margin : 0 auto;
+      
+        background: #FFF url(background.jpg);
+      }
+
+  
